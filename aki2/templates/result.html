@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GyaniQuest - Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="text-box">
+    <h1>{{ result }}</h1>
+    <a href="{{ url_for('index') }}" class="btn">Play Again</a>
+    </div>
+</body>
+</html>

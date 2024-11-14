@@ -1,0 +1,90 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Links and buttons styling */
+a, button {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+a:hover, button:hover {
+    background-color: #0056b3;
+}
+
+/* Forms and inputs styling */
+form {
+    margin: 20px 0;
+}
+
+label {
+    font-size: 1.2em;
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Mobile responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    
+    p, label {
+        font-size: 1.1em;
+    }
+    
+    button, a {
+        padding: 8px 16px;
+    }
+}
+body {
+    background-image: url('image.webp');
+    background-size: cover; /* This will make sure the image covers the whole page */
+    background-position: center; /* This will center the image */
+}
+.text-box {
+    background-color: white; /* White background */
+    padding: 20px;            /* Space inside the box */
+    border: 1px solid #ccc;  /* Light gray border */
+    border-radius: 8px;      /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    max-width: 500px;         /* Optional: set a maximum width */
+    margin: 0 auto;           /* Center the box horizontally */
+}

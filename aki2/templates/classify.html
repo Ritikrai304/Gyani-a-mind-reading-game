@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GyaniQuest - Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="text-box">
+    <h1>Classify Your Thought</h1>
+    <form method="POST">
+        <label>
+            <input type="radio" name="classification" value="animal" required> Animal
+        </label>
+        <label>
+            <input type="radio" name="classification" value="object"> Object
+        </label>
+        <label>
+            <input type="radio" name="classification" value="cartoon"> Cartoon Character
+        </label>
+        <br>
+        <button type="submit">Next</button>
+    </form>
+    </div>
+</body>
+</html>
